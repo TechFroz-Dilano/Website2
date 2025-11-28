@@ -36,6 +36,7 @@ header {
     flex-direction: row;
     display: flex;
     border-radius: 500px;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 
 }
 
@@ -57,21 +58,35 @@ nav {
 
 }
 
-
-/*Main?*/
-main {}
-
-
-
-
+/*contact buttnon */
 
 .buttoncontact {
-    width: 100px;
-    height: 60px;
-    border: 30px;
+    width: 90px;
+    height: 40px;
+    border: 70px;
     border-radius: 50px;
-    background-color: rgb(24, 22, 22);
+    background-color: rgb(66, 72, 72);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 
@@ -84,6 +99,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
 
 /*Social media buttons die in de foooter staan*/
@@ -105,7 +121,25 @@ footer {
     gap: 10px;
 }
 
-/*Sectie1 buiten Footer om dus eerste sectie onder footer met i AM*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTIE 1! | buiten header om dus eerste sectie onder header met i AM*/
 
 .textboxje-sectie-1 {
 
@@ -118,6 +152,7 @@ footer {
     justify-content: center;
     margin-left: 500px;
     margin-top: 120px;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 
 }
 
@@ -125,9 +160,10 @@ footer {
 .alle3deboxen {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     gap: 35px;
     margin-bottom: 20px;
+
 }
 
 .box1 {
@@ -137,6 +173,7 @@ footer {
     border-radius: 20px;
     display: flex;
     align-items: center;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 
 }
 
@@ -148,6 +185,7 @@ footer {
     border-radius: 20px;
     display: flex;
     align-items: center;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
 
 .box3 {
@@ -158,6 +196,7 @@ footer {
     background-color: rgb(66, 72, 72);
     border-radius: 20px;
     text-align: center;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
 
 .gewerkttext {
@@ -171,7 +210,9 @@ footer {
     margin-left: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
+
 
 .logo1 img {
     display: flex;
@@ -197,25 +238,43 @@ footer {
     height: auto;
 }
 
-/*Zijbalken langs sectie 1 onder footer werk ervaring en werk afbeeldingen */
 
-.verticaalbalkzij1 {
-    width: 50px;
-    height: 600px;
-    background-color: rgb(66, 72, 72);
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 725px;
 
-}
 
-/*ERGERNS PLAATSE BIJ TIJDBALK*/
+
+
+
+
+
+
+
+
+/*TUSSENBALK ONDER SECTIE 1 |  Zijbalken langs sectie 1 onder footer werk ervaring en werk afbeeldingen */
+
+
+
+
+
+
+
+
+
+
+/*ERGERNS PLAATSE BIJ TIJDBALK TIS EEN PIJLTJE DIE IK NOG ERGENS WIL TOEVOEGEN!!*/
 .pijl2 img {
     display: flex;
     justify-content: center;
+
 }
 
+
+
+
+
+
+
+
+/*SECTIE 2 | Officiele sectie 2 */
 
 
 .grotesectieblok1 {
@@ -226,6 +285,11 @@ footer {
     color: #b6acac;
     text-align: center;
     margin-top: 40px;
+
+
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
+
+
 }
 
 .bigimage img {
@@ -247,6 +311,18 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*SECTIE 3 | OFFICIELE SECTIE 3 */
 .opdrachten-text1 h1 {
     display: flex;
     justify-content: center;
@@ -266,29 +342,102 @@ footer {
     margin-bottom: 70px;
     margin-top: 150px;
 
+
 }
 
 .box4 {
     width: 300px;
-    height: 300px;
+    height: 100px;
     background-color: rgb(66, 72, 72);
-
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
     border-radius: 40px;
     text-align: center;
 }
 
 .box5 {
     width: 300px;
-    height: 300px;
+    height: 100px;
     background-color: rgb(66, 72, 72);
     border-radius: 40px;
     text-align: center;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
 
 .box6 {
     width: 300px;
-    height: 300px;
+    height: 100px;
     background-color: rgb(66, 72, 72);
     border-radius: 40px;
     text-align: center;
+    box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
+}
+
+
+
+
+
+/* ALLES VAN PAGINA ABOUT ME DUS PAGINA 2 */
+
+.sectie1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+.textepag2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 72, 72);
+    border-radius: 30px;
+    width: 300px;
+    height: 110px;
+    margin-top: 50px;
+
+}
+
+
+
+.textvakpag2 {
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    background-color: rgb(66, 72, 72);
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+
+
+}
+
+.alle3lijnen {}
+
+.lijn1 {
+    width: 30px;
+    height: 100px;
+    background-color: rgb(66, 72, 72);
+
+
+}
+
+.lijn2 {
+    
+}
+
+.lijn3 {
+
+}
+
+
+
+
+.footer2 {
+    margin-top: 240px;
 }
