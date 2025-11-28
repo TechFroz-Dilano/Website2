@@ -157,19 +157,27 @@ footer {
 }
 
 
-.alle3deboxen {
+
+
+
+.alle3deboxen   {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 35px;
     margin-bottom: 20px;
-
+    height: auto;
+    width: auto;
+   background-color: rgb(66, 72, 72);
+   border-radius: 20px;
 }
 
-.box1 {
+.box1 div:hover{
+    scale:1.2;
     width: 200px;
     height: 200px;
-    background-color: rgb(66, 72, 72);
+ 
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -178,22 +186,26 @@ footer {
 }
 
 
-.box2 {
+.box2:hover {
+     scale:1.2;
+
     width: 200px;
     height: 200px;
-    background-color: rgb(66, 72, 72);
+   
     border-radius: 20px;
     display: flex;
     align-items: center;
     box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
 
-.box3 {
+.box3:hover {
+    
+    scale: 1.2;
     display: flex;
     align-items: center;
     width: 200px;
     height: 200px;
-    background-color: rgb(66, 72, 72);
+  
     border-radius: 20px;
     text-align: center;
     box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
@@ -343,9 +355,10 @@ footer {
     margin-top: 150px;
 
 
+
 }
 
-.box4 {
+.box4:hover {
     width: 300px;
     height: 100px;
     background-color: rgb(66, 72, 72);
@@ -354,7 +367,8 @@ footer {
     text-align: center;
 }
 
-.box5 {
+.box5:hover  {
+   
     width: 300px;
     height: 100px;
     background-color: rgb(66, 72, 72);
@@ -363,7 +377,7 @@ footer {
     box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
 }
 
-.box6 {
+.box6:hover {
     width: 300px;
     height: 100px;
     background-color: rgb(66, 72, 72);
@@ -417,23 +431,7 @@ footer {
 
 }
 
-.alle3lijnen {}
 
-.lijn1 {
-    width: 30px;
-    height: 100px;
-    background-color: rgb(66, 72, 72);
-
-
-}
-
-.lijn2 {
-    
-}
-
-.lijn3 {
-
-}
 
 
 
