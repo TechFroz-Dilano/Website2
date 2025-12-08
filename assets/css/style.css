@@ -88,6 +88,8 @@ nav {
 
 
 
+
+
 /*FOOTER*/
 
 footer {
@@ -160,8 +162,8 @@ footer {
 
 
 
-.alle3deboxen   {
-   
+.alle3deboxen {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -169,15 +171,16 @@ footer {
     margin-bottom: 20px;
     height: auto;
     width: auto;
-   background-color: rgb(66, 72, 72);
-   border-radius: 20px;
+    background-color: rgb(66, 72, 72);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 120px;
 }
 
-.box1 div:hover{
-    scale:1.2;
+.box1 div:hover {
+    scale: 1.2;
     width: 200px;
     height: 200px;
- 
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -187,11 +190,9 @@ footer {
 
 
 .box2:hover {
-     scale:1.2;
-
+    scale: 1.2;
     width: 200px;
     height: 200px;
-   
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -199,13 +200,11 @@ footer {
 }
 
 .box3:hover {
-    
     scale: 1.2;
     display: flex;
     align-items: center;
     width: 200px;
     height: 200px;
-  
     border-radius: 20px;
     text-align: center;
     box-shadow: 2px 2px 5px 1px rgb(140, 220, 238);
@@ -308,6 +307,7 @@ footer {
     justify-content: center;
     margin-top: 230px;
 
+
 }
 
 .textinditblok h1 {
@@ -339,18 +339,15 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-
     margin-top: 250px;
     color: black;
-
-
 }
 
 .alle3deboxen2 {
 
-    display: flex;
-    flex-direction: center;
-    justify-content: space-around;
+    display: grid;
+    grid-column: auto;
+    justify-self: center;
     margin-bottom: 70px;
     margin-top: 150px;
 
@@ -367,8 +364,8 @@ footer {
     text-align: center;
 }
 
-.box5:hover  {
-   
+.box5:hover {
+
     width: 300px;
     height: 100px;
     background-color: rgb(66, 72, 72);
